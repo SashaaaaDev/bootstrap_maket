@@ -1,0 +1,9 @@
+.container>.row>div{
+  display: block;
+  /* background-color: blueviolet; */
+  color: beige;
+  margin: 5px 0px;
+  padding: 5px;
+  /* border: 1px solid wheat; */
+  text-align: center;
+}

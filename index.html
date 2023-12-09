@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="uk">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="bg-secondary">
+  <header class="bg-danger">
+    <div class="container">
+      <h1 class="py-5 fw-bold text-center">Header</h1>
+    </div>
+  </header>
+  <nav class="navbar bg-dark navbar-expand-lg" data-bs-theme="dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">My site</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Gallery</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown list
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Github</a></li>
+              <li><a class="dropdown-item" href="#">Linkedin</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Instagram</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row">
+      <div class="col-xxl-7 col-xl-8">
+        <div class="accordion" id="accordionFlushExample">
+          <div class="accordion-item ">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-dark-subtle" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Тема 1
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body bg-light-subtle">В Proteus, елемент <code>logicstate </code>використовується
+                для представлення
+                логічного
+                стану певного об'єкта в симуляції елемент використовується головним чином для відображення значень
+                логічних сигналів або стану виводів/входів пристроїв.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-dark-subtle" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Тема 2
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body bg-light-subtle"><code>"Digital Clock Generator"</code>в Proteus може вказувати
+                на різні
+                компоненти або схеми, які використовуються для створення цифрового генератора тактових імпульсів або
+                схеми годинника. В Proteus доступні різні засоби для моделювання цифрових інтегральних схем, включаючи
+                тактові генератори, мікроконтролери, тригери, лічильники тощо.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-dark-subtle" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Тема 3
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body bg-light-subtle">Припустимо, що на вхід S (від англійського "set",
+                "встановити") надходить
+                імпульс. Нижчий елемент спочатку виконує операцію АБО - результат буде 1. Потім інвертує його в 0
+                операцією НЕ. На обох входах верхнього елемента опиняються нулі, отже, на виході буде 1. Цей одиниця
+                потрапляє на вхід нижнього елемента і продовжує підтримувати його у тому ж стані навіть тоді, коли
+                зникне високий рівень на <code>вході S</code>.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item ">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-dark-subtle" type="button" data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseOne">
+                Тема 4
+              </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body bg-light-subtle">В Proteus, елемент <code>logicstate </code>використовується
+                для представлення
+                логічного
+                стану певного об'єкта в симуляції елемент використовується головним чином для відображення значень
+                логічних сигналів або стану виводів/входів пристроїв.
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- FORM -->
+        <form action="https://tests.fomenko.top/echo/index.php" method="get" class="mt-5 d-flex justify-content-center">
+          <fieldset class="border-danger">
+            <legend>Заповніть форму</legend>
+            <div class="mb-4 d-flex flex-wrap">
+              <label for="namedata" class="form-label">Name</label>
+              <input type="text" class="form-control bg-dark-subtle" name="name" id="namedata" placeholder="Name..."
+                minlength="3" maxlength="10">
+            </div>
+            <div class="mb-4 d-flex flex-wrap">
+              <label for="surnamedata" class="form-label">Surname</label>
+              <input type="text" class="form-control bg-dark-subtle" name="surname" id="surnamedata"
+                placeholder="Surname..." minlength="3" maxlength="15">
+            </div>
+            <div class="mb-4 d-flex flex-wrap">
+              <label for="pass" class="form-label">Password</label>
+              <input type="password" class="form-control bg-dark-subtle" name="password" id="pass" minlength="3"
+                maxlength="10">
+            </div>
+            <div class="mb-4 d-flex flex-wrap">
+              <label for="emailadrs" class="form-label">Email address</label>
+              <input type="email" class="form-control bg-dark-subtle" name="Email" id="emailadrs" placeholder="name@example.com">
+            </div>
+            <div class="mb-4 d-flex flex-wrap">
+              <label for="textarea" class="form-label">Example textarea</label>
+              <textarea class="form-control bg-dark-subtle" name="Text" id="textarea" rows="5" placeholder="Text..."></textarea>
+            </div>
+            <input class="btn btn-primary mb-4" type="submit" value="Submit">
+          </fieldset>
+        </form>
+      </div>
+      <div class="col-xxl-3 col-xl-4 col-lg-6 order-xl-first">
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="assets/images/1.jpg" class="w-50" alt="statue">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/2.png" class="w-50" alt="draw">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/3.jpg" class="w-50" alt="coffee">
+            </div>
+            <div class="carousel-item">
+              <img src="assets/images/4.jpg" class="w-50" alt="ball">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next " type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="col-xxl-2 col-xl-12 col-lg-6">Схемотехніка</div>
+    </div>
+  </div>
+  <footer class="text-bg-warning">
+    <div class="container">
+      <h5 class="text-center py-5 col ">Footer</h5>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>
